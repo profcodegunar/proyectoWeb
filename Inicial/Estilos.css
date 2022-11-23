@@ -1,0 +1,59 @@
+body {
+    font-family: "Poppins";
+    margin: 0px;
+    padding: 0px;
+}
+
+.Pastor {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin: 0px;
+    font-size: 55px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.contenedor-Fatima {
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 160px;
+    margin-left: 320px;
+    width: 60%;
+}
+
+.contenedor-Fatima p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Pastor img {
+    margin-bottom: 5px;
+}
+
+.FeAlegria {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contenedor-FeAlegria {
+    width: 60%;
+    margin-left: 320px;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contenedor-FeAlegria p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.FeAlegria img {
+    margin-bottom: 5px;
+}

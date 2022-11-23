@@ -1,0 +1,88 @@
+body {
+    font-family: "Poppins";
+    margin: 0px;
+    padding: 0px;
+}
+
+.misestudios {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    align-items: center;
+}
+
+.contenedor-parrafoboton {
+    width: 60%;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 320px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 55px;
+    margin: 0px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+.contenedor-parrafoboton p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 160px;
+}
+
+.misestudios img {
+    margin-bottom: 5px;
+}
+
+.contenedor-texto {
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin-left: 320px;
+    margin-bottom: 60px;
+}
+
+.contenedor-texto p {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Inicio img {
+    margin-bottom: 5px;
+}
+
+.Medio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Medio img {
+    margin-bottom: 5px;
+}
+
+.contenedor-segundo {
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin-left: 320px;
+    margin-bottom: 160px;
+}
+
+.contenedor-segundo p {
+    justify-content: space-around;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}

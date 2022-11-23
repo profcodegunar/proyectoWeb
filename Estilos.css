@@ -1,0 +1,620 @@
+body {
+    font-family: "Poppins";
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p  {
+    font-size: 18px;
+} 
+
+li {
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+ul {
+    display: flex;
+}
+
+.menu a {
+    background: none;
+    margin: 0px;
+    color: black;
+    padding: 12px;
+}
+
+.menu p {
+    margin-top: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.titular {
+    text-align: center;
+    margin-top: 200px;
+}
+
+a {
+    text-decoration: none;
+    background: #5cb8ff;
+    font-size: 14px;
+    color: white;
+    padding: 15px 30px 15px 30px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 27px;
+    margin: 20px 0px 40px 0px;
+}
+
+header {
+    background-image: url(fondo.png);
+    height: 100vh;
+    background-size: cover;
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    font-size: 55px;
+    padding-top: 0px;
+}
+
+.contenedor-sobremi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.contenedor-parrafo-y-boton {
+    width: 42%;
+}
+
+.contenedor-parrafo-y-boton p {
+    font-size: 20px;
+}
+
+.contenedor-parrafo-y-boton a{
+    margin-top: 5px;
+    display: inline-block;
+    padding: 14px 30px 14px 30px;
+}
+
+#Personales img {
+    width: 100%;
+}
+
+#Personales h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    font-size: 29px;
+}
+
+.contenedor-gustos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gustos {
+    width: 23%;
+    box-shadow: 1px 1px 14px #ccc;
+}
+
+.gustas {
+    width: 23%;
+    box-shadow: 1px 1px 14px #ccc;
+}
+
+.gustas img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.gustes {
+    width: 23%;
+    box-shadow: 1px 1px 14px #ccc;
+}
+
+.gustes img {
+    margin-top: 6px;
+}
+
+#Personales h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+#Personales {
+    margin-top: 50px;
+
+}
+
+#Misestudios {
+    margin-top: 150px;
+}
+
+#misservicios {
+    margin-top: 60px;
+    padding-top: 60px;
+}
+
+#Misestudios img {
+    width: 100%;
+    margin: 0%;
+}
+
+#Misestudios h2 {
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.contenedor-etapas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.etapa {
+    width: 30%;
+    box-shadow: 1px 1px 14px #ccc;
+}
+
+.etapa a {
+    display: inline-block;
+    margin-left: 90px;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.evolucion {
+    justify-content: space-around;
+    width: 30%;
+    box-shadow: 1px 1px 14px #ccc;
+}
+
+.evolucion a {
+    display: inline-block;
+    margin-left: 90px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+
+
+.contenedor-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.servicio {
+    width: 22%;
+    padding: 50px 38px 50px 38px;
+    border-radius: 15px;
+    color: white;
+}
+
+.violeta {
+    background-color: #5055df;
+}
+
+.celeste {
+    background-color: #40a8fa;
+}
+
+.servicio h4 {
+    font-size: 30px;
+    margin: 0px;
+}
+
+.servicio img {
+    float: right;
+}
+
+.servicio p {
+    font-size: 17px;
+    height: 200px;
+}
+
+span {
+    font-size: 50px;
+    color: blue;
+}
+
+.owl-nav {
+   text-align: center; 
+}
+
+.owl-carousel a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.Porque {
+    margin-top: 130px;
+    margin-bottom: 0px;
+    padding: 0px;
+    align-items: center;
+}
+
+.razones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.razones {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 15px;
+}
+
+.razones p {
+    font-size: 17px;
+    margin: 12px;
+    line-height: 28px;
+}
+
+.razon-mobil {
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.razon-mobil p {
+    font-size: 17px;
+    margin-bottom: 12px;
+    line-height: 28px;
+}
+
+.Contacto {
+    margin-top: 140px;
+}
+
+.razones h4 {
+    font-size: 20px;
+}
+
+.razon-mobil {
+    margin-bottom: 8px;
+}
+
+.razon-mobil img {
+    margin-top: 24px;
+}
+
+.Contacto {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.formulario {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 600px;
+    background-color: #dc4337;
+    padding: 40px;
+    padding-bottom: 60px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: "Poppins";
+    box-shadow: 7px 13px 37px #000;
+}
+
+.formulario h4 {
+    font-size: 26px;
+    margin-bottom: 36px;
+}
+
+.Controles {
+    width: 95%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: "Poppins";
+    font-size: 18px;
+    background: #dc4337;
+    color: white;
+}
+
+
+.Controles::placeholder{
+    color: white;
+}
+
+.formulario p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.formulario {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+
+.formulario a:hover {
+    background-color: none;
+    color: white;
+    text-decoration: underline;
+}
+
+.formulario .botones {
+    width: 100%;
+    background: orange;
+    border: 1px solid white;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.formulario a {
+    background: none;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 18px;
+}
+
+.formulario .Extra {
+    height: 100%;
+    margin-left: 30px;
+    border: 1px solid white;
+    padding: 12px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.Enviar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.Sobremi {
+    margin-top: 150px;
+}
+
+.misservicios {
+    margin-top: 220px;
+}
+
+.trabajos {
+    margin-top: 140px;
+}
+
+.Porquetrabajar {
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+
+#whatsapp a {
+    background: none;
+    position: fixed;
+    top: 78%;
+    right: 1px;
+} 
+
+.pie {
+    background: linear-gradient(rgba(84, 93, 220,.94),rgba(96,171,245,.9));
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pie h3 {
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pie h2 {
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+.pie h1 {
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+    padding-top: 18px;
+}
+
+.pie img {
+    margin: 5px 0px 10px 0px;
+}
+
+.pie a {
+    display: inline-block;
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+    background: none;
+}   
+
+
+@media (max-width: 800px) {
+
+  .titular {
+    margin-top: 0px;
+  }  
+
+  header {
+    height: 30vh;
+  }
+
+  .titular {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .titular h1 {
+    font-size: 28px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .titular h2 {
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .titular a {
+    font-size: 8px;
+    padding: 8px;
+  }
+
+  .menu p {
+    font-size: 12px;
+  }
+  
+  nav {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    background: #5cb8ff;
+    width: 100%;
+    display: none;
+  }
+
+  nav .lista {
+    flex-direction: column;
+  }
+
+  nav .lista a {
+    line-height: 33px;
+  } 
+
+  .menu-icon {
+    display: block;
+    width: 25px;
+  }
+
+  .titular {
+    margin-top: 0px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .contenedor-sobremi {
+    flex-direction: column;
+  }
+
+  .contenedor-parrafo-y-boton {
+    width: 90%;
+  }
+
+  .contenedor-servicios {
+    flex-direction: column;
+  }
+
+  .servicio {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .servicio p {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 48px;
+  }
+
+  .razones {
+    flex-direction: column;
+  }
+
+  .razon-unica {
+    width: 95%;
+    margin-top: 16px;
+  }
+
+  .imagen-sobremi {
+    width: 100%;
+  }
+}  
+
+@media (min-width: 700px) and (max-width: 900px) {
+    header {
+        height: 40vh;
+    }
+
+    .Brayan-foto {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    .contenedor-sobremi p {
+        font-size: 23px;
+    }
+
+    .servicio {
+        width: 50%;
+    }
+
+    .servicio p {
+        font-size: 18px;
+    }
+}    
